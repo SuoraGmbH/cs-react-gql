@@ -1,4 +1,5 @@
 import React from "react";
+import {gql} from "@apollo/client";
 
 interface Props {
   personId: string;
@@ -7,9 +8,9 @@ interface Props {
 
 export const AuthorDetails: React.FunctionComponent<Props> = ({personId}) => {
   return (
-      <div>
-        <p>Who is dis person "{personId}"?</p>
-      </div>
+    <div>
+      <p>Who is this person "{personId}"?</p>
+    </div>
   );
 
 }

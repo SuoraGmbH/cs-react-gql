@@ -29,6 +29,7 @@ generates the client code.
 - [GraphQL](https://graphql.org/learn/)
 - [Apollo](https://www.apollographql.com/) (the GraphQL client/server library that we use)
 - [GraphQL code generator](https://www.graphql-code-generator.com/) (generates the hooks such as `useAllMessagesQuery`)
+- https://github.com/graphql/graphql-playground
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
